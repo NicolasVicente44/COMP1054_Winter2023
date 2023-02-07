@@ -9,9 +9,28 @@
     text-align: center;
 }
 
-/*img {
- 
-}*/
+img {
+    max-width: 100%; 
+    height:auto; 
+    filter: blur(2px);
+    filter: brightness(0.4);   
+    /*filter: grayscale(100%);*/
+    /*filter: sepia(100%);
+    filter: opacity(0.4);*/
+    filter:invert(75%);
+    filter:contrast(200%);
+}
+
+img:hover {
+   transform: scaleX(-1);  
+}
+
+
+
+
+
+
+
 
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/

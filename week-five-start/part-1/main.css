@@ -1,43 +1,71 @@
 * {
-    margin:0; 
-    padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  margin-top: 25px; 
+  margin-top: 25px;
   max-width: 960px;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   background-color: #BADA55;
-  position:relative; 
-  font-family: 'Roboto', sans-serif; 
+  position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* STEP ONE - the box model - what will the width of the box be?*/
-/*.box1 {
+.box1 {
+  background-color: purple;
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
 
-}*/
-
-/* STEP TWO - overflow */ 
+/* STEP TWO - overflow */
 .box2 {
-    background-color: orange; 
-    width: 350px;
-    margin: 10px;
-    padding: 25px;
-    border: 5px solid #000;
+  background-color: orange;
+  width: 350px;
+  margin: 10px;
+  /* height: 40px; */
+  /*padding: 25px;*/
+  border: 5px solid #000;
+  overflow: auto;
   /* STEP THREE - positioning */
 }
 
+/* STEP FOUR  - cool pseudo selectors  */
+/* :not() */
 
+.ex1 p:not(.box2) {
+  font-style: italic;
+}
 
-/* STEP FOUR  - cool pseudo selectors  */ 
-/* :not */ 
+/* :has( ) */
 
-/* :has( ) */ 
+article h1 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
 
+article>h2 {
+  font-size: 1.5rem;
+  color: #666;
+}
 
-/* STEP FIVE - SIZING ELEMENTS IN CSS - absolute and relative units */ 
+article h1:has(+ h2) {
+  padding: 1rem 0 0.25rem 0;
+}
 
+/* STEP FIVE - SIZING ELEMENTS IN CSS - absolute and relative units */
+
+/* set the width of the container to 50% of the viewport screen */ 
+
+.container {
+  width: 50vw;  
+}
 
 
 
