@@ -37,11 +37,6 @@ footer {
 
         1.) use floats to align the section elements side by side */
 
-        main section {
-            float:left; 
-            width: 33.33%; 
-        }
-
         /*2.) use the clear property to fix the footer position */
 
         /* 3.) return to the section style rule and set section elements to 33.3% width */
