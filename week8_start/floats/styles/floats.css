@@ -1,0 +1,51 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
+
+body {
+   font-family: 'Tilt Warp', cursive;
+   color: #fff;
+   font-size: 2rem; 
+   text-align:center; 
+}
+
+nav {
+    height: 100px; 
+    background-color: #3772ff; 
+}
+
+aside {
+    height: 300px; 
+    background-color:#F038FF; 
+}
+
+article {
+    height: 500px;
+    background-color: #EF709D; 
+}
+
+footer {
+   height: 200px; 
+    background-color: #E2EF70; 
+}
+
+
+/* FLOATING AN ELEMENT */ 
+
+
+
+
+/* FLOATING INSIDE OF PARENTS */ 
+
+
+
+/* MULTIPLE FLOATS */ 
+
+
+
+/* AFTER A FLOAT*/ 
+
+
+
